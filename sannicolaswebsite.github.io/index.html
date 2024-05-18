@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width initial-scale=1.0">
+<title> Barangay San Nicolas Website </title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="CABOGINDEX.html"><img src="images/LOGOW.png"></a>
+            <div class="address">
+                <p>
+                    <b>Republic of the Philippines<br>
+                    Province of Laguna<br>
+                    Municipality of San Pablo<br>
+                    Barangay San Nicolas</b>
+                </p>
+            </div>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="HIDE()"></i>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li>
+                    <li><a href="history.html"><b>History</b></a></li>
+                    <li><a href="officials.html"><b>Officials</b></a></li>
+                    <li><a href="gallery.html"><b>Gallery</b></a></li>
+                    <li><a href="announcement.html"><b>Announcement</b></a></li>
+                    <li><a href="contact us.html"><b>Developers</b></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="SHOW()"></i>
+        </nav>
+        <div class="welcome">
+            <h1> WELCOME TO SAN NICOLAS</h1>
+            <p><b>San Nicolas is a barangay in the municipality of San Pablo, in the province of Laguna.</b><br><b>Its population as determined by the 2020 Census was  7,255.</b><br> <b>This represented  2.54% of the total population of San Pablo.</b></p>
+               <a href="history.html", class="discover-button"><b>DISCOVER SAN NICOLAS</a>
+        </div>
+        
+    </section>
+
+
+
+
+<!------FOOTER------->
+<section class="footer">
+      <h4>Barangay San Nicolas 2024 - All Rights Reserved</h4>
+      <p>San Nicolas San Pablo City</p>
+      <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-whatsapp"></i>
+      </div>
+    </section>
+
+
+<!------HIDE AND SHOW MENU------->
+<script>
+var navlinks=document.getElementById("navlinks");
+function SHOW(){
+    navlinks.style.right="0";
+}
+function HIDE(){
+    navlinks.style.right="-200px";
+}
+
+</script>
+</body>
+</html>rgb(7, 7, 3)
